@@ -1,0 +1,26 @@
+@font-face {
+  font-family: Mardoto-Reguliar;
+  src: url("../font/Mardoto-Regular.ttf");
+}
+@font-face {
+  font-family: Mardoto-Bold;
+  src: url("../font/Mardoto-Bold.ttf");
+}
+
+@font-face {
+  font-family: Mardoto-Medium;
+  src: url("../font/Mardoto-Medium.ttf");
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
+}

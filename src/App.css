@@ -1,0 +1,52 @@
+
+.container{
+    padding: 0px 280px;
+}
+@media only screen and (max-width: 1200px){
+    .container{
+        padding: 0 200px !important;
+    }
+  .draft{
+    display: none  !important;
+  }
+  .test{
+    display: block  !important;
+  }
+}
+
+@media only screen and (max-width: 980px){
+    .container{
+        padding: 0 100px !important;
+    }
+  .draft{
+    display: none  !important;
+  }
+  .test{
+    display: block  !important;
+  }
+}
+
+@media only screen and (max-width: 768px){
+    .container{
+        padding: 0 80px !important;
+    }
+  .draft{
+    display: none  !important;
+  }
+  .test{
+    display: block  !important;
+  }
+}
+
+@media only screen and (max-width: 590px){
+    .container{
+        padding: 0 10px !important;
+    }
+  .draft{
+    display: block !important;
+  }
+  .test{
+    display: none !important;
+  }
+
+}
